@@ -10,10 +10,33 @@ import { TfiMenuAlt } from "react-icons/tfi";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
 const ProductHome = () => {
+
   return (
     <div>
       <Header />
       <section id="product1">
+        <div className="box_container_ux_ui">
+          <div className="container_Uxui">
+            <div className="box_Uxui">
+              <p>UX/UI</p>
+            </div>
+            <p>Software developer</p>
+            <p>Data Analysis</p>
+          </div>
+          <div className="box_TfiMenuAlt">
+            <select className="filter_priceProduct">
+              <option>More title job</option>
+              <option value="1">Tester</option>
+              <option value="2">Data Analysis</option>
+              <option value="3">Software developer</option>
+              <option value="4">Frontend</option>
+              <option value="5">Backend</option>
+              <option value="6">Web developer</option>
+              <option value="7">Programe developer</option>
+              
+            </select>
+          </div>
+        </div>
         <div className="productHead_content">
           <h1 className="htxthead">
             <span className="spennofStyle"></span>Suggest
@@ -84,20 +107,7 @@ const ProductHome = () => {
             <span className="spennofStyle"></span>All User
           </h1>
         </div>
-        <div className="box_container_ux_ui">
-          <div className="container_Uxui">
-            <div className="box_Uxui">
-              <p>UX/UI</p>
-            </div>
-            <p>Software developer</p>
-            <p>Data Analysis</p>
-            <p>Tester</p>
-          </div>
-          <div className="box_TfiMenuAlt">
-            <p>More title job</p>
-            <TfiMenuAlt id="TfiMenuAlt" />
-          </div>
-        </div>
+
         <div className="contentImageProducts1">
           <div className="group_itemBox">
             <div className="containner_box_image">
@@ -131,7 +141,7 @@ const ProductHome = () => {
               </div>
             </div>
             <div className="btn_button_see">
-              <FormControlLabel control={<Checkbox />} className="Checkbox"/>
+              <FormControlLabel control={<Checkbox />} className="Checkbox" />
               <Link to="/productdetails" className="button_see">
                 PDF
               </Link>
@@ -150,7 +160,7 @@ const ProductHome = () => {
               </div>
             </div>
             <div className="btn_button_see">
-              <FormControlLabel control={<Checkbox />}  className="Checkbox"/>
+              <FormControlLabel control={<Checkbox />} className="Checkbox" />
               <Link to="/productdetails" className="button_see">
                 PDF
               </Link>
@@ -214,6 +224,7 @@ const ProductHome = () => {
             </div>
           </div>
         </div>
+
         <div className="box_container_next_product">
           <button className="box_prev_left_product">
             <AiOutlineLeft id="" />
