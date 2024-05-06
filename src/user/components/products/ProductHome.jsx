@@ -22,7 +22,7 @@ const ProductHome = () => {
         <div className="contentImageProducts1">
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={logo} alt="image" />
               </div>
               <div className="txtOFproduct">
@@ -41,7 +41,7 @@ const ProductHome = () => {
           </div>
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={avatar} alt="image" />
               </div>
               <div className="txtOFproduct">
@@ -60,7 +60,7 @@ const ProductHome = () => {
           </div>
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={job} alt="image" />
               </div>
               <div className="txtOFproduct">
@@ -101,7 +101,7 @@ const ProductHome = () => {
         <div className="contentImageProducts1">
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={logo} alt="image" />
               </div>
               <div className="txtOFproduct">
@@ -120,7 +120,7 @@ const ProductHome = () => {
           </div>
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={avatar} alt="image" />
               </div>
               <div className="txtOFproduct">
@@ -139,7 +139,7 @@ const ProductHome = () => {
           </div>
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={job} alt="image" />
               </div>
               <div className="txtOFproduct">
@@ -158,7 +158,7 @@ const ProductHome = () => {
           </div>
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={logo} alt="image" />
               </div>
               <div className="txtOFproduct">
@@ -177,7 +177,7 @@ const ProductHome = () => {
           </div>
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={avatar} alt="image" />
               </div>
               <div className="txtOFproduct">
@@ -196,7 +196,7 @@ const ProductHome = () => {
           </div>
           <div className="group_itemBox">
             <div className="containner_box_image">
-              <div className="img">
+              <div className="box_image">
                 <img src={job} alt="image" />
               </div>
               <div className="txtOFproduct">
