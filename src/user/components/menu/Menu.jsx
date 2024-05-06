@@ -51,16 +51,10 @@ const Menu = () => {
 
             <div className="menubar">
                 <Link to="/" className="box-menu active">
-                    <span className="iconMenuSpan"><HiOutlineHome/></span><span>집</span>
+                    <span className="iconMenuSpan"><HiOutlineHome/></span><span>Home</span>
                 </Link>
                 <Link to="/text" className="box-menu">
-                    <span className="iconMenuSpan"><BsShop /></span><span>소개</span>
-                </Link>
-                <Link to="/order" className="box-menu">
-                    <span className="iconMenuSpan"><BsClipboardCheck/></span><span>명령</span>
-                </Link>
-                <Link to="/cart" className="box-menu">
-                    <span className="iconMenuSpan"><FaCartShopping/></span><span>카트</span>
+                    <span className="iconMenuSpan"><BsShop /></span><span>Induction</span>
                 </Link>
             </div>
 
